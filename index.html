@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siva Charan Karthik | ML Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    header {
+      padding: 5rem 2rem;
+      text-align: center;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    .buttons {
+      margin-top: 2rem;
+    }
+
+    .buttons a {
+      padding: 0.8rem 1.8rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      display: inline-block;
+    }
+
+    .primary {
+      background-color: #38bdf8;
+      color: #0f172a;
+    }
+
+    .secondary {
+      border: 2px solid #38bdf8;
+      color: #38bdf8;
+      background-color: transparent;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #f8fafc;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      padding: 1.5rem;
+      background: #1e293b;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.9rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      background-color: #334155;
+      color: #f8fafc;
+    }
+
+    .contact-form button {
+      padding: 0.9rem;
+      background-color: #38bdf8;
+      color: #0f172a;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #1e293b;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Hi, I’m Siva Charan Karthik</h1>
+    <p>Machine Learning Engineer | SRM University AP (2025)</p>
+    <p>Crafting intelligent systems and efficient solutions for real-world problems using ML and deep learning.</p>
+    <div class="buttons">
+      <a href="resum.pdf" class="primary" target="_blank">View Resume</a>
+      <a href="#contact" class="secondary">Contact Me</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a final-year B.Tech Computer Science student at SRM University AP, passionate about machine learning, problem-solving, and intelligent system design.</p>
+    <div class="grid">
+      <div class="card">
+        <strong>Technical Skills</strong>
+        <p>Machine Learning, OOP, Problem Solving</p>
+      </div>
+      <div class="card">
+        <strong>Languages</strong>
+        <p>C++, Python, SQL, Java</p>
+      </div>
+      <div class="card">
+        <strong>Soft Skills</strong>
+        <p>Quick Learner, Team Player, Time Management</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Heart Disease Prediction</h3>
+        <p>Python • Scikit-learn • ML Algorithms</p>
+        <p>Developed a model using Logistic Regression, Random Forest, KNN, and SVM to predict heart disease using medical data.</p>
+      </div>
+      <div class="card">
+        <h3>Communication for Vehicular Networks</h3>
+        <p>LSTM • VANET • Deep Learning</p>
+        <p>Built an LSTM-based predictive model to optimize relay node selection and reduce latency in VANETs using V2X protocols.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s Work Together</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    Designed & Developed by Siva Charan Karthik © 2025
+  </footer>
+</body>
+
+</html>
