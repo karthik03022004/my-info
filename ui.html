@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <img src="./tghead.png" alt="telengana RTC" width="800">
+    </center>
+    <fieldset>
+        <legend>
+            <h2>APPLICANT DETAILS</h2>
+        </legend>
+        <form action="../forms/booked.html">
+            <table>
+                <tr>
+                    <td><label for="nam"><b>Name:</b></label><input type="text" name="Name" id="nam" maxlength="20" required>
+                    </td>
+                     <td><label for=""><b>Father's Name:</b></label><input type="text" name="fname"  maxlength="20" required></td>
+                </tr>
+                <tr>
+                    <td><label for=""><b>date of birth</b></label>
+                        <input type="date" name="DOB" required>
+                    </td>
+                    <td><input type="radio" name="gender" required><label for=""><b>Female</b></label> <input type="radio" name="gender" required><label for=""><b>Male</b></label></td>
+                </tr>
+                <tr>
+                    <td><label for=""><b>Adhar No:</b></label><input type="text" maxlength="12" required pattern="[\d]{12}"></td>
+                    <td><label for=""><b>Whatsapp No:</b></label><input type="text" pattern="[9876][\d]{9}"></td>
+
+                </tr>
+                <tr>
+                    <td><label for=""><b>Email:</b></label><input type="email" required></td>
+                    <td><label for=""><b>Photo:</b></label><input type="file" required></td>
+                </tr>
+            </table>
+        
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Residential Address details</h2>
+        </legend>
+        <table>
+            <tr>
+                <td><label for="">Address:</label><input type="text" size="30" required></input></td>
+                <td><label for="district"><b>District:</b></label>
+<select id="district" name="district" required>
+  
+  <option value="hyderabad" selected>HYDERABAD</option>
+  <option value="rangareddy">RANGAREDDY</option>
+  <option value="medchal">MEDCHAL</option>
+  <option value="nalgonda">NALGONDA</option>
+  
+</select></td>
+            </tr>
+            <tr>
+                <td><label for="mandal">Mandal:</label><select name="mandal" id="mandal">
+                    <option value="hyderbad">hyderbad</option>
+                    <option value="rangareddy">rangareddy</option>
+                    <option value="medchal">madchal</option>
+                    <option value="nalgonda">Nalgonda</option>
+                </select>
+                <td><label for="village"><b>Village</b></label><select name="village" id="village">
+                    <option value="rangareddy">rangareddy</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode"><b>Pincode:</b></label><input type="text" id="pincode" pattern="[\d]{6}" required>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><h2>Pass Details</h2></legend>
+        <label for="city"><b>City:</b></label>
+        <select name="city" id="city"> <option value="select">---select---</option>
+        <option value="hyderbad">hyderbad</option></select><br><br>
+        <label for="type"><b>Pass type:</b></label>
+        <select name="type" id="type" size="">
+  <option value="">---Select---</option>
+  <option value="greater_pass">GREATER PASS</option>
+  <option value="general_ordinary_route_pass_mty">GENERAL ORDINARY ROUTE PASS MTLY</option>
+  <option value="general_metro_express_route_pass_mty">GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+  <option value="ordinary_pass">ORDINARY PASS</option>
+  <option value="metro_express_pass">METRO EXPRESS PASS</option>
+  <option value="metro_deluxe_pass">METRO DELUXE PASS </option>
+
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Mode of payment &amp; Pass collection</h2>
+        </legend>
+       
+            <label for="mode"><b>Payment Mode</b></label>
+            <select name="mode" id="mode">
+                <option value="mode">---select payment mode---</option>
+                <option value="mode"> At the counter</option>
+            </select><br><br>
+            <label for="passmode"><b>Pass Delivery Mode</b></label>
+            <select name="passmode" id="passmode">
+                <option value="select pass deleivery">--select delivery</option>
+                
+                <option value="At the counter">At The Counter</option>
+            </select>
+            <br><br>
+            <label for="collectionCenter"><b>Center at which you want to collect</b></label>
+<select id="collectionCenter" name="collectionCenter" required>
+  <option value="">Select</option>
+  <option value="afzalgunj">RTC AFZALGUNJ -- HYD [17/06/2025]</option>
+  <option value="airport">RTC AIRPORT -- HYD [16/06/2025]</option>
+  <option value="aramghar">RTC ARAMGHAR -- HYD [17/06/2025]</option>
+  <option value="bala_nagar">RTC BALA NAGAR -- HYD [17/06/2025]</option>
+  <option value="borabanda">RTC BORABANDA -- HYD [17/06/2025]</option>
+  <option value="cbs">RTC CBS -- HYD [17/06/2025]</option>
+  <option value="charminar">RTC CHARMINAR -- HYD [17/06/2025]</option>
+  <option value="dilsukhnagar">RTC DILSUKHNAGAR -- HYD [17/06/2025]</option>
+  <option value="ecil">RTC ECIL -- HYD [17/06/2025]</option>
+  <option value="farooqnagar">RTC FAROOQNAGAR -- HYD [17/06/2025]</option>
+  <option value="ghatkesar">RTC GHATKESAR -- HYD [17/06/2025]</option>
+  <option value="hayathnagar">RTC HAYATHNAGAR -- HYD [17/06/2025]</option>
+  <option value="ibrahimpatnam">RTC IBRAHIMPATNAM -- HYD [17/06/2025]</option>
+  <option value="jbs">RTC JBS -- HYD [17/06/2025]</option>
+  <option value="kachiguda">RTC KACHIGUDA -- HYD [17/06/2025]</option>
+  <option value="koti">RTC KOTI -- HYD [17/06/2025]</option>
+  <option value="kphb">RTC KPHB -- HYD [17/06/2025]</option>
+  <option value="kukatpally">RTC KUKATPALLY -- HYD [17/06/2025]</option>
+  <option value="lakdikapool">RTC LAKDIKAPOOL -- HYD [17/06/2025]</option>
+</select>
+        
+    </fieldset>
+    <br>
+    <center><img src="./image.png" alt="captcha" width="200"></center><br><br>
+    <center><input type="text" placeholder="enter captcha" pattern="WymVzW" size="20" required></center><br>
+    <center><input type="submit"></center>
+</form>
+</body>
+</html>
